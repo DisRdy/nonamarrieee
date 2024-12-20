@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
+
+}
+.my-custom-bg {
+    background-color: #000000; /* Warna latar belakang kustom (misalnya biru muda) */
+    color: #353A40; /* Warna teks kustom (misalnya putih) */
+}
+.my-costum-bg{
+    background-color: #343a40; /* Warna latar belakang kustom (misalnya biru muda) */
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.cake1{
+    position: absolute;
+    z-index: -1;
+    bottom: 8px;
+    filter: blur(3px);
+    margin-left: -150px;
+    width: 22%;
+    height: auto;
+}
+
+.cake2{
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    bottom: 75%;
+    width: 20%;
+    height: auto;
+}
+
+.cake3{
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: 10%;
+    width: 20%;
+    height: auto;
+}
+
+.cake4{
+    position: absolute;
+    top: 38%;
+    right: 1%;
+    z-index: -1;
+    width: 15%;
+}
+
+.cake5{
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    top: 100%;
+    filter: blur(1px);
+    width: 20%;
+    height: auto;
+}

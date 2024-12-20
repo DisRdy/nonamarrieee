@@ -1,0 +1,624 @@
+body{
+    background-color: black;
+}
+
+.hero{
+    width: 90%;
+    background-color: #353A40;
+    box-shadow: 0px 0px 60px #353A40;
+    border-radius: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.text-hero{
+    margin: 50px auto 150px;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-hero p{
+    padding: 20px;
+    margin-left: 25%;
+    font-size: 25%;
+    text-align: justify;
+    width: 50%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cake1{
+    position: absolute;
+    z-index: -1;
+    bottom: 8px;
+    filter: blur(3px);
+    margin-left: -150px;
+    width: 22%;
+    height: auto;
+}
+
+.cake2{
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    bottom: 87%;
+    width: 20%;
+    height: auto;
+}
+
+.cake3{
+    position: absolute;
+    z-index: -1;
+    top: 5%;
+    left: 10%;
+    width: 20%;
+    filter: blur(1px);
+    height: auto;
+}
+
+.cake4{
+    position: absolute;
+    top: 38%;
+    right: 25%;
+    width: 15%;
+    transition: transform 7.3s ease;
+}
+
+.cake5{
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    top: 200%;
+    width: 20%;
+    height: auto;
+}
+
+.cake4:hover{
+    transform: rotate(2000deg);
+    
+}
+
+#navbarNav{
+    color: white;
+    margin-left: 5%;
+}
+
+.navbar-toggler{
+    margin-right: 5%;
+}
+
+.navbar-toggler-icon { 
+    color: white; 
+}
+
+
+ul {
+    font-family:Tahoma;
+    margin-right: 5%;
+    font-size: 120%;
+
+}
+.logo{
+    width: 100%;
+    margin-left: 15%;
+}
+.kepala{
+    position: relative; 
+    width: 96%;
+    margin: 2%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: white;
+    display: flex; 
+    border-radius: 10px;
+}
+
+.kepala::before{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: #353A40 ; /* Background warna solid dengan transparansi */ 
+    backdrop-filter: blur(1px);
+    filter: blur(5px); /* Efek blur pada background */ 
+    z-index: 1;
+}
+
+.badan{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row{
+    position: relative; 
+    width: 100%;
+    height: 100%; 
+    padding: 1%;
+    overflow: hidden; 
+    background-color: white;
+    display: flex; 
+    border-radius: 10px;
+}
+
+.row::before{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: #353A40 ; /* Background warna solid dengan transparansi */ 
+    backdrop-filter: blur(1px);
+    filter: blur(5px); /* Efek blur pada background */ 
+    z-index: 1;
+}
+.badan h1{
+    color: white;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    font-size: 100%;
+    padding: 10px;
+}
+.badan p{
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    margin-bottom: -1%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+}
+.kata2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+}
+
+.logo img{
+    width: 80%;
+}
+
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    padding: 0%;
+}
+
+.img-container img{
+    width: 100%;
+    transition: transform 0.3s ease;
+    border: #ccc solid 1px;
+    border-radius: 8px;
+}
+
+.img-container img:hover{
+    transform: scale(0.9);
+}
+
+.title-hero{
+    text-align: center;
+    color: white;
+}
+
+
+.logo img{
+    padding: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;   
+    background-color: #353A40;
+}
+
+.mr{
+    padding: 10px;
+}
+
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-container{
+    margin: 5% auto ;
+    position: relative; 
+    width: 32%;
+    height: auto; 
+    overflow: hidden; 
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-container::before{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: #353A40 ; /* Background warna solid dengan transparansi */ 
+    backdrop-filter: blur(1px);
+    filter: blur(5px); /* Efek blur pada background */ 
+    z-index: 1;
+}
+/* Formmmm ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`*/
+#kirim{
+    margin-top: 5%;
+}
+form{
+    position: relative;
+    z-index: 2;
+    padding: 5%;
+}
+
+
+
+/* -------------------Contact Us -----------------*/
+.container-contact{
+    position: relative;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5% auto ;
+    width: 32%;
+    height: auto; 
+    overflow: hidden; 
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+
+.container-contact::before{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: #353A40 ; /* Background warna solid dengan transparansi */ 
+    backdrop-filter: blur(1px);
+    filter: blur(5px); /* Efek blur pada background */ 
+    z-index: 1;
+
+}
+.kata-contact{
+    padding: 5%;
+}
+
+.container-contact h3{
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.kata-contact p{
+    position: relative;
+    font-size: 100%;
+    z-index: 2;
+
+}
+
+.sosial-media{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    z-index: 2;
+
+}
+.sosial-media p{
+    position: relative;
+    font-size: 100%;
+    z-index: 2;
+
+}
+.sosial-media h4{
+    position: relative;
+    font-size: 100%;
+    z-index: 2;
+
+}
+
+.isi-footer{
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+
+.container-about{
+    order: 3;
+    position: relative;
+    text-align: left;
+    padding: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto 0% auto auto;
+    width: 32%;
+    height: auto; 
+    overflow: hidden; 
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-about::before{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: #353A40 ; /* Background warna solid dengan transparansi */ 
+    backdrop-filter: blur(1px);
+    filter: blur(5px); /* Efek blur pada background */ 
+    z-index: 1;
+}
+
+.container-about h3{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.kata-about{
+    position: relative;
+    z-index: 2;
+}
+
+
+.penutup{
+    margin-top: 40%;
+}
+
+
+@media only screen and (max-width:576px){
+    .hero{
+        width: 85%;
+    }
+    .text-hero{
+        margin-bottom: 5%;
+        font-size: 150%;
+    }
+
+    .badan{
+        font-size: 40%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .kata2 p{
+        font-size: 20%;
+    }
+    .cake1{
+        margin-left: -50px;
+        width: 22%;
+    }
+    
+    .cake2{
+        position: absolute;
+        right: 20%;
+        width: 20%;
+    }
+    
+    .cake3{
+        top: 5%;
+        left: 10%;
+        width: 20%;
+    }
+    
+    .cake4{
+        position: absolute;
+        top: 140px;
+        right: 150px;
+        width: 10%;
+        transition: transform 7.3s ease;
+    }
+    
+    .cake5{
+        position: absolute;
+        right: 10%;
+        top: 200%;
+        width: 20%;
+        height: auto;
+    }
+    
+    .cake4:hover{
+        transform: rotate(2000deg);
+        
+    }
+    
+    .logo img{
+        padding: 5%;
+        width: 60%;
+    }
+    .tittle h1{
+        margin: auto auto 10% -50%;
+        font-size: 80%;
+        margin-top: 10%;
+        
+    }
+    
+
+    .kata2{
+        font-size: 70%;
+        margin-bottom: 1%;
+    }
+
+    ul {
+        margin-right: 5%;
+        font-size: 70%;
+    
+    }
+
+    .isi-footer{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .container-about{
+        margin: auto;
+    }
+
+    .container-about h3{
+        font-size: 100%;
+    }
+    
+    .kata-about{
+        font-size: 50%;
+    }
+
+    /* _________________ */
+
+    .container-contact{
+        max-width: 40%;
+        margin: auto 6% auto auto;
+        width: 40%;
+
+    }
+    .container-contact h3{
+        font-size: 100%;
+    }
+    .kata-contact{
+        font-size: 50%;
+    }
+    .sosial-media{
+        font-size: 120%;
+    }
+    .kata-contact p{
+        font-size: 100%;
+    
+    }
+
+    .sosial-media p{
+        font-size: 100%;
+        z-index: 2;
+    
+    }
+    .sosial-media h4{
+        font-size: 120%;
+        z-index: 2;
+    
+    }
+
+    #kirim{
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+
+    .form-container{
+        max-width: 100%;
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+    
+
+    
+    
+    
+}
+
+@media only screen and (min-width:576px){
+
+    .logo img{
+        padding: 10px;        
+    }
+
+    .tittle h1{
+        font-size: 150%;
+        margin-top: 9%;
+        margin-left: -20%;
+    }
+    .link a{
+        font-size: 80%;
+    }
+    .cake4{
+        position: absolute;
+        top: 250px;
+        right: 250px;
+        width: 10%;
+        transition: transform 7.3s ease;
+    }
+    
+
+
+
+}
+
+@media only screen and (max-width:580px) {
+    .link a{
+        font-size: 76%;
+    }
+    
+    .isi-footer{
+        padding: 5%;
+        width: 100%;
+    }
+
+    .container-about{
+        position: relative;
+        width: 80%;
+        transform: scale(0.9);
+        left: 4%;
+        margin: -10% auto auto 3%;
+    }
+
+    .container-about h3{
+        font-size: 100%;
+    }
+    
+    .kata-about{
+        font-size: 30%;
+    }
+
+    /* _________________ */
+
+    .container-contact{
+        position: absolute;
+        transform: scale(0.9);
+        right: 4%;
+    }
+    .container-contact h3{
+        font-size: 100%;
+    }
+    .kata-contact{
+        font-size: 50%;
+    }
+    .sosial-media{
+        font-size: 120%;
+    }
+    .kata-contact p{
+        font-size: 100%;
+    
+    }
+
+    .sosial-media p{
+        font-size: 100%;
+    
+    }
+    .sosial-media h4{
+        font-size: 120%;
+    
+    }
+
+    #kirim{
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+    .isi-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form-container{
+        margin-top: -10%;
+        width: 100%;
+        transform: scale(0.5);
+        transform-origin: left;
+    }
+    
+}
+
